@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(Assets/background-image.png);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    height: 100px;
+
+}
+.ipdc_logo1{
+    width: 125px;
+}
+.title{
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    margin-right: 10px;
+    font-size: 1.085rem;
+}
+li:hover{
+    background-color: #dcdcdc8a;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.search{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-right: 23px;
+}
+.search_logo:hover{
+    filter: brightness(0) invert(1);
+}
+.button{
+    background-color: #ed017f;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+.button:hover{
+    background-color: #ffffff;
+    color: #ed017f;
+}
+main{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto 2rem;
+    gap: 40px;
+}
+.web_content{
+    width: 40rem;
+}
+.web_content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 180px;
+    padding-top: 120px;
+    gap: 26px;
+
+    
+}
+.web_tit{
+    line-height: 85px;
+}
+.web_tit2{
+    font-size: 70px;
+    font-weight: 600;
+}
+.wc_t{
+    font-size: 25px;
+    color: #808080;
+}
+.wc_t:hover{
+    color: #ed017f;
+}
+.w_content{
+    position: relative;
+    
+}
+.a_button{
+    background-color: #ed017f;
+    color: white;
+    padding: 11px 15px;
+    border-radius: 6px;
+    position: fixed;
+    left: 118px;
+}
+.a_button:hover{
+    color: #ed017f;
+    background-color: rgb(226, 226, 226);
+}
+.b_button{
+    color: #ed017f;
+    border: 1px solid #ed017f;
+    padding: 11px 15px;
+    border-radius: 6px;
+    position: fixed;
+    left: 280px;
+}
+.b_button:hover{
+    background-color: #ed017f;
+    color: white;
+}
+.web_img{
+    display: flex;
+    position: relative;
+}
+
+
+.car_loan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 670px;
+    top: 96px;
+    background-color: white;
+    padding: 14px 22px;
+    font-size: 18px;
+    box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.81);
+    border-radius: 30px;
+    gap: 18px;
+
+}
+.car_loan:hover{
+    background-color: #ed017f;
+    color: #ffffff;
+}
+.car{
+    width: 30px;
+}
+.car:hover{
+    filter: brightness(0) invert(1);
+}
+.f_img{
+    position: relative;
+}
+.h_img{
+    width: 950px;
+    position: fixed;
+    top: 35px;
+    left: 590px;
+    z-index: -1;
+}
+.car_loan2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 105px;
+    top: 215px;
+    background-color: white;
+    padding: 14px 22px;
+    font-size: 18px;
+    box-shadow: 0px 0px 26px 1px rgba(0,0,0,0.81);
+    border-radius: 30px;
+    gap: 18px;
+}
+.car_loan2:hover{
+    background-color: #ed017f;
+    color: #ffffff;
+}
+.house:hover{
+    filter: brightness(0) invert(1);
+}
+footer{
+    height: 166px;
+    display: flex;
+    align-items: center;
+    max-width: 1310px;
+    margin: 0 auto 2rem;
+}
+.contact_us{
+    display: flex;
+    gap: 13px;
+    margin-left: 10px;
+}
+.tele{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    color: #808080;
+}
+.tele:hover{
+    color: #ed017f;
+}
+.contact_us_hr{
+    border: 1px solid #808080;
+
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
